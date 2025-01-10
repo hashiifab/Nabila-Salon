@@ -221,7 +221,7 @@ function App() {
             </div>
             <div>
               <h2 className="text-3xl sm:text-4xl font-bold mb-8">
-                Tentang Nabilla Salon
+                About Us
               </h2>
               <p className="text-base sm:text-lg text-gray-600 mb-6">
                 Selamat datang di Nabilla Salon! Kami di sini untuk bantu kamu
