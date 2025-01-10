@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Menu, X, Scissors, MapPin, Clock, Star } from "lucide-react";
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
           <div className="flex justify-between h-16 items-center">
             <div className="flex-shrink-0">
               <a href="#">
-                <img src="./assets/logo.svg" alt="Nabila Beauty" />
+                <img src="./logo.svg" alt="Nabila Beauty" />
               </a>
             </div>
 
@@ -116,7 +116,7 @@ function App() {
               </mask>
             </defs>
             <image
-              href="./assets/hero-bg.svg"
+              href="./hero-bg.svg"
               width="1440"
               height="800"
               mask="url(#mask1)"
@@ -127,7 +127,7 @@ function App() {
 
         {/* SVG Background on the left side */}
         <div className="hidden lg:block lg:w-[200px] absolute right-[30%] bottom-0 z-0">
-          <img src="./assets/flower.svg" width={150} alt="flower" />
+          <img src="./flower.svg" width={150} alt="flower" />
         </div>
       </section>
 
@@ -214,7 +214,7 @@ function App() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
             <div>
               <img
-                src="./assets/about.png"
+                src="./about.png"
                 alt="Salon Interior"
                 className="w-full max-w-full h-auto object-cover rounded-lg transition-all duration-300 ease-in-out transform hover:filter-none lg:filter lg:grayscale sm:h-[300px] md:h-[400px] lg:h-[500px]"
               />
