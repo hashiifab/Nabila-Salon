@@ -46,9 +46,6 @@ Edit
 npm run dev
 Open in Browser: Visit http://localhost:3000 in your browser to view the application.
 
-📸 Screenshots
-Note: Please add actual screenshots of the website here.
-
 📞 Contact
 For more information or inquiries:
 
